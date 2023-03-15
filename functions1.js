@@ -90,7 +90,8 @@
 // findMinimumValue(32, 200,3);
 
 //Problem 10
-function updatedCharityCollection(Money){
+function updatedCharityCollection(Num1, Num2, Num3){
+    let Money = Num1 + Num2 + Num3;
     if (Money < 1000) {
         console.log(`$${Money} was raised, so $${Money + 100} will be donated.`);
     } else if (Money > 1000 && Money < 2000 ){
@@ -99,4 +100,4 @@ function updatedCharityCollection(Money){
         console.log(`$${Money} was donated, so $${Money + 2000} will be donated.`)
     }
 }
-updatedCharityCollection(1500);
+updatedCharityCollection(25, 200, 1800);
