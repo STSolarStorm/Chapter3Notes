@@ -75,9 +75,9 @@ const readLine = require('readline-sync');
 //         points3 = Number(readLine.question('How many points did you earn for game 3?: '));
 //     }
 //     let pointTotal = points1 + points2 + points3;
-//         console.log(pointTotal);
+//     return (pointTotal);
 // }
-// dartsGame();
+// console.log(dartsGame());
 
 
 // //Problem 6
@@ -101,7 +101,7 @@ const readLine = require('readline-sync');
 //
 //
 //     let twoplayerpoints1 = Number(readLine.question('How many points did player 2 earn for game 1?: '));
-//     if (oneplayerpoints1 > 180){
+//     if (twoplayerpoints1 > 180){
 //         console.log("That is not a possible number of points. Do it again!");
 //         twoplayerpoints1 = Number(readLine.question('How many points did player 2 earn for game 1?: '));
 //     }
@@ -117,6 +117,9 @@ const readLine = require('readline-sync');
 //     }
 //     let playertwopointTotal = twoplayerpoints1 + twoplayerpoints2 + twoplayerpoints3;
 //
+//
+//     console.log(`Player 1 scored: ${playeronepointTotal}`);
+//     console.log(`Player 2 scored: ${playertwopointTotal}`);
 //     if (playeronepointTotal > playertwopointTotal){
 //         console.log("Player 1 is the winner!");
 //     } else if (playertwopointTotal > playeronepointTotal){
@@ -125,6 +128,7 @@ const readLine = require('readline-sync');
 //         console.log("The game is a tie!");
 //     }
 // }
+//
 // dartsGame2();
 
 
