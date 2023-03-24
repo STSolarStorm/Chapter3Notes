@@ -14,16 +14,22 @@
 // secondElement(myArray);
 
 
-//Problem 3
-function thirdElement (arr){
-    console.log(arr[0])
-}
-let myArray = [];
-thirdElement(myArray);
+// //Problem 3
+// function thirdElement (arr){
+//     if(arr.length == 0){
+//         console.log('Empty array');
+//     } else  {
+//         console.log(arr[0]);
+//     }
+//
+// }
+// let myArray = [];
+// thirdElement(myArray);
 
 
-//Problem 4
-let Array = [1, 2, 3, 4, 5, 6];
-for(let i = 5; i > 0; i--){
-    console.log(Array[0]);
-}
+// //Problem 4
+//     let Array = [1, 2, 3, 4, 5, 6];
+//     for(let i = Array.length-1; i >= 0; i--){
+//         console.log(Array[i]);
+//
+//     }
