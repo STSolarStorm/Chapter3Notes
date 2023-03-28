@@ -54,24 +54,36 @@
 // everySecond([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]);
 
 
-//Problem 7
-function biggerThanFour(arr, num) {
-    for (let i = 0; i < arr.length; i++) {
-        let item = arr[i];
-        if (item > 4) {
-            console.log(item);
-        }
-    }
-}
-biggerThanFour([0, 23, 5, 4, 3, -31, 300]);
+// //Problem 7
+// function biggerThanFour(arr) {
+//     for (let i = 0; i < arr.length; i++) {
+//         let item = arr[i];
+//         if (item > 4) {
+//             console.log(item);
+//         }
+//     }
+// }
+// biggerThanFour([0, 23, 5, 4, 3, -31, 300]);
 
-//Problem 8
-function biggerThanNum(arr, num) {
-    for (let i = 0; i < arr.length; i++) {
-        let item = arr[i];
-        if (item > num) {
-            console.log(item);
-        }
+// //Problem 8
+// function biggerThanNum(arr, x) {
+//     for (let i = 0; i < arr.length; i++) {
+//         let item = arr[i];
+//         if (item > x) {
+//             console.log(item);
+//         }
+//     }
+// }
+// biggerThanNum([100,0, 42, 52525, 1, 4, 65, 432, ], 50);
+
+//Problem 9
+function uniqueValue([arr]){
+    for (let i = 0; i < arr.length; i++){
+       if (arr[i] == arr[i]){
+           console.log();
+       } else {
+           console.log(arr[i]);
+       }
     }
 }
-biggerThanNum([100,0, 42, 52525, 1, 4, 65, 432]);
+uniqueValue([1, 2, 3, 4, 1, 1, 3, 6, 8 ]);
