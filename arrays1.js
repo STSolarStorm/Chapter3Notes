@@ -8,7 +8,8 @@
 
 // //Problem 2
 // function secondElement (arr){
-//     console.log(arr[3])
+//     let lastIndex= arr.length;
+//     console.log(lastIndex)
 // }
 // let myArray = [1, 2, 3, 4];
 // secondElement(myArray);
@@ -36,26 +37,41 @@
 
 
 // //Problem 5
-// let Problem5Array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
-// console.log(Problem5Array[2]);
-// console.log(Problem5Array[5]);
-// console.log(Problem5Array[8]);
-// console.log(Problem5Array[11]);
-//
-//
-// //Problem 6
-// let Problem6Array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
-// console.log(Problem6Array[2]);
-// console.log(Problem6Array[4]);
-// console.log(Problem6Array[6]);
-// console.log(Problem6Array[8]);
-// console.log(Problem6Array[10]);
-// console.log(Problem6Array[12]);
-
-
-// //Problem 7 Working on it...
-// let Problem7Array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
-// let prob7Arr =  Problem7Array.length - 11;
-// if(Problem7Array >= prob7Arr){
-//     console.log(`${Problem7Array}`);
+// function everyThird(arr){
+//     for (let i = 2; i < arr.length; i=i+3){
+//         console.log(arr[i]);
+//     }
 // }
+// everyThird([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]);
+
+
+// //Problem 6
+// function everySecond(arr){
+//     for (let i = 2; i < arr.length; i=i+2){
+//         console.log(arr[i]);
+//     }
+// }
+// everySecond([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]);
+
+
+//Problem 7
+function biggerThanFour(arr, num) {
+    for (let i = 0; i < arr.length; i++) {
+        let item = arr[i];
+        if (item > 4) {
+            console.log(item);
+        }
+    }
+}
+biggerThanFour([0, 23, 5, 4, 3, -31, 300]);
+
+//Problem 8
+function biggerThanNum(arr, num) {
+    for (let i = 0; i < arr.length; i++) {
+        let item = arr[i];
+        if (item > num) {
+            console.log(item);
+        }
+    }
+}
+biggerThanNum([100,0, 42, 52525, 1, 4, 65, 432]);
