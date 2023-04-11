@@ -1,47 +1,71 @@
 const readLine = require('readline-sync');
 
 
+// let adjectives = [red, grey, angry, peaceful, bad, golden];
+// let nouns = [car, table, feet, rocks, stick, bush, trashcan];
+// let verbs = [runs, flicks, launched, runs, smash, dashes, kicked, laughing];
 
-let array = [adjective1, verb1, adjective2, noun1, verb2, verb3, adjective3, verb4, verb5, verb]
-let adjective1 = [readLine.question('Adjective: ')];
-let verb1 = readLine.question('Verb: ');
+
+
+let adjective1 = readLine.question('Adjective (Color): ');
+let firstAdjective = [adjective1];
+let verb1 = readLine.question('Verb (Past Tense): ');
+let firstVerb = [verb1];
 let adjective2 = readLine.question('Adjective: ');
-let noun1 = readLine.question('Noun:');
-let verb2 = readLine.question('Verb: ');
+let secondAdjective = [adjective2];
+let noun1 = readLine.question('Noun: ');
+let firstNoun = [noun1];
+let verb2 = readLine.question('Verb (+ed): ');
+let secondVerb = [verb2];
 let verb3 = readLine.question('Verb: ');
+let thirdVerb = [verb3];
 let adjective3 = readLine.question('Adjective: ');
+let thirdAdjective = [adjective3];
 let verb4 = readLine.question('Verb: ');
+let fourthVerb = [verb4];
 let verb5 = readLine.question('Verb: ');
-let noun2 = readLine.question('Noun; ');
+let fifthVerb = [verb5];
+let noun2 = readLine.question('Noun: ');
+let secondNoun = [noun2];
 let verb6 = readLine.question('Verb: ');
+let sixthVerb = [verb6];
 let adjective4 = readLine.question('Adjective: ');
+let fourthAdjective = [adjective4];
 let verb7 = readLine.question('Verb: ');
+let seventhVerb = [verb7];
 let adjective5 = readLine.question('Adjective: ');
+let fifthAdjective = [adjective5];
 let noun3 = readLine.question('Noun: ');
-let adverb1 = readLine.question('Adverb:');
-let noun4 = readLine.question('Noun: ');
+let thirdNoun = [noun3];
+let adverb1 = readLine.question('Adverb: ');
+let firstAdverb = [adverb1];
+let noun4 = readLine.question('Noun (Plural): ');
+let fourthNoun = [noun4];
 let adjective6 = readLine.question('Adjective: ');
-let noun5 = readLine.question('Noun:');
-let verb8 = readLine.question('verb: ');
-let noun6 = readLine.question('Noun:');
-let noun7 = readLine.question('Noun:');
+let sixthAdjective = [adjective6];
+let noun5 = readLine.question('Noun: ');
+let fifthNoun = [noun5];
+let verb8 = readLine.question('Verb (Uppercase): ');
+let EighthVerb = [verb8];
+let noun6 = readLine.question('Noun: ');
+let sixthNoun = [noun6];
+let noun7 = readLine.question('Noun: ');
+let seventhNoun = [noun7];
 
-let
 
-console.log(`Ronald wanted, no, needed to get that MacGuffin. He needed it so bad that if he didn’t get it, he’ll turn ${adjective1}.
-He ${verb1} his foot into the ground, with a determined mindset. Jumping into his ${adjective2} ${noun1}, he ${verb2} a switch and is ${verb3} out.
-It made him very ${adjective3}. Instead, he ${verb4} down the road to ${verb5} a window. into a house. Ronald steals a pencil from the ${noun2} and ${verb6} onto the road.
-He bends over to write on the ground that he is ${adjective4}. Suddenly, he gets ${verb7} in the head. He’s having a very ${adjective5} day. Ronald has had enough.
-He will get that MacGuffin no matter the cost. Using nothing but his ${noun3}, he walks ${adverb1} down the road once more. He powers through all the ${noun4} thrown
-at him and reaches the MacGuffin on the stump. When he grabs at it, a powerful shudder runs through his body. He’s finally done it! He finally has the almighty ${adjective6} ${noun5}.
-${verb8}, he turns around and points it at a ${noun6}. Then someone plucks it out of his hand and tosses it into the ${noun7}.
+console.log(`Ronald wanted, no, needed to get that MacGuffin. He needed it so bad that if he didn’t get it, he’ll turn ${firstAdjective}.
+He ${firstVerb} across ground, with a determined mindset. Jumping into his ${secondAdjective} ${firstNoun}, he ${secondVerb} a switch and is ${thirdVerb} out.
+It made him very ${thirdAdjective}. Instead, he ${fourthVerb} down the road to ${fifthVerb} a window into a house. Ronald steals a pencil from the ${secondNoun} and ${sixthVerb} onto the road.
+He bends over to write on the ground that he is ${fourthAdjective}. Suddenly, he gets ${seventhVerb} in the head. He’s having a very ${fifthAdjective} day. Ronald has had enough.
+He will get that MacGuffin no matter the cost. Using nothing but his ${thirdNoun}, he walks ${firstAdverb} down the road once more. He powers through all the ${fourthNoun} thrown
+at him and reaches the MacGuffin on the stump. When he grabs at it, a powerful shudder runs through his body. He’s finally done it! He finally has the almighty ${sixthAdjective} ${fifthNoun}.
+${EighthVerb}, he turns around and points it at a ${sixthNoun}. Then someone plucks it out of his hand and tosses it into the ${seventhNoun}.
 `);
-}
 
 
 // Ronald wanted, no, needed to get that MacGuffin. He needed it so bad that if he didn’t get it, he’ll turn red.
-// He plants his foot into the ground, with a determined mindset. Jumping into his grey car, he flicks a switch and is launched out.
-// It made him very angry. Instead, he runs down the road to smash a window. into a house. Ronald steals a pencil from the table and dashes onto the road.
+// He runs across ground, with a determined mindset. Jumping into his grey car, he flicks a switch and is launched out.
+// It made him very angry. Instead, he runs down the road to smash a window into a house. Ronald steals a pencil from the table and dashes onto the road.
 // He bends over to write on the ground that he is peaceful. Suddenly, he gets kicked in the head. He’s having a very bad day. Ronald has had enough.
 // He will get that MacGuffin no matter the cost. Using nothing but his feet, he walks calmly down the road once more. He powers through all the rocks thrown
 // at him and reaches the MacGuffin on the stump. When he grabs at it, a powerful shudder runs through his body. He’s finally done it! He finally has the almighty golden stick.
