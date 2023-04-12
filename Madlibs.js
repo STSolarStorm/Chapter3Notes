@@ -1,6 +1,5 @@
 const readLine = require('readline-sync');
 
-//Story made by Shine Thao
 
 let adjectives = ['red', 'grey', 'angry', 'peaceful', 'bad', 'golden'];
 let nouns = ['car', 'table', 'feet', 'rocks', 'stick', 'bush', 'trashcan'];
