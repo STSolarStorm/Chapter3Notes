@@ -37,6 +37,7 @@ function rollStat(list){
 
 function createChar(character, list){
     character.name = readLine.question("Enter Character Name: ");
+    character.strength = rollStat(diceRolls);
     console.log("Rolling Strength");
     character.dexterity = rollStat(diceRolls);
     console.log("Rolling Dexterity");
@@ -48,6 +49,17 @@ function createChar(character, list){
     console.log("Rolling Wisdom");
     character.charisma = rollStat(diceRolls);
     console.log("Rolling Charisma");
-    character.strength = rollStat(diceRolls);
-    console.log(character);
+    displayChar(character);
+}
+
+function displayChar(char){
+    console.log('----------------------');
+    console.log(`Name: ${char.name}`);
+    console.log(`Strength: ${char.strength}`);
+    console.log(`Dexterity: ${char.dexterity}`);
+    console.log(`Constitution: ${char.constitution}`);
+    console.log(`Intelligence: ${char.intelligence}`);
+    console.log(`Wisdom: ${char.wisdom}`);
+    console.log(`Charisma: ${char.charisma}`);
+    console.log('----------------------');
 }
